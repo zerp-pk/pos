@@ -1,0 +1,29 @@
+{
+    "name": "zerp/pos",
+    "description": "Description for pos package",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zerp\\Pos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZAWAT OFFICIALS PVT LTD",
+            "email": "zawatofficials@gmail.com"
+        },
+        {
+            "name": "HafizMMoaz",
+            "email": "hafizmoazkhalid@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zerp\\Pos\\Providers\\PosServiceProvider"
+            ]
+        }
+    }
+}
