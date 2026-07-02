@@ -1,6 +1,6 @@
 {
     "name": "zerp/pos",
-    "description": "Description for pos package",
+    "description": "Point of Sale module for the Zerp ERP platform",
     "type": "library",
     "license": "MIT",
     "require": {},
